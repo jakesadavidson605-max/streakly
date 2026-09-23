@@ -46,6 +46,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     ...config,
   name: 'Streakly: Habit Tracker',
   slug: 'streakly',
+  owner: 'jakedavidson1990s-team',
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/images/icon.png',
