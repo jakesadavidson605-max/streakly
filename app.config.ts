@@ -65,5 +65,10 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   ios: {
     bundleIdentifier: 'com.jakesadavidson.streakly',
   },
+  extra: {
+    eas: {
+      projectId: '52df5b88-92b0-409e-8b72-11a4334ec4a4',
+    },
+  },
   };
 };
